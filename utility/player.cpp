@@ -11,12 +11,12 @@ class Player {
         }
     
         // Getter for the player's symbol
-        Symbol getSymbol() {
+        Symbol getSymbol() const {
             return symbol;
         }
     
         // Getter for the player's strategy
-        PlayerStrategy* getPlayerStrategy() {
+        PlayerStrategy* getPlayerStrategy() const {
             return playerStrategy;
         }
     };
