@@ -1,5 +1,5 @@
 enum class Symbol {
     X,
     O,
-    EMPTY
+    EMPTY //for empty cell
 };
