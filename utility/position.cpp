@@ -11,7 +11,9 @@ class Position {
     
         // Optional: For better debugging or printing
         std::string toString() const {
-            return "(" + std::to_string(row) + ", " + std::to_string(col) + ")";
+            return "(" + std::to_string(row) + ", " + std::to_string(col) + ")"; // If row = 3 and col = 5, the result is:
+
+"(3, 5)"
         }
     
         // Optional: Equals operator if you ever want to compare positions
