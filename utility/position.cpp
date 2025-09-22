@@ -18,7 +18,7 @@ class Position {
     
         // Optional: Equals operator if you ever want to compare positions
         bool operator==(const Position& other) const {
-            return this->row == other.row && this->col == other.col;
+            return this->row == other.row && this->col == other.col; // yahan compare kar re to * (pointer) ki jagah &(reference) lia
         }
     
         // Optional: hash function if you want to use in unordered_map/set
