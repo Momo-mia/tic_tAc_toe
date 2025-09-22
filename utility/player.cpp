@@ -1,6 +1,6 @@
 class Player {
     private:
-        Symbol symbol;
+        Symbol symbol; //no pointer here mtlb no SYmbol* as it is enum or small like symbol can only be 0,X or empty
         PlayerStrategy* playerStrategy;
     
     public:
